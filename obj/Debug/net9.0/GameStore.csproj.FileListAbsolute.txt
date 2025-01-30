@@ -27,3 +27,9 @@
 /Volumes/Janindu_Projects/External_Projects/dotnet/GameStore/obj/Debug/net9.0/GameStore.genruntimeconfig.cache
 /Volumes/Janindu_Projects/External_Projects/dotnet/GameStore/obj/Debug/net9.0/ref/GameStore.dll
 /Volumes/Janindu_Projects/External_Projects/dotnet/GameStore/obj/Debug/net9.0/GameStore.sourcelink.json
+/Volumes/Janindu_Projects/External_Projects/dotnet/GameStore/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Volumes/Janindu_Projects/External_Projects/dotnet/GameStore/bin/Debug/net9.0/MinimalApis.Extensions.dll
+/Volumes/Janindu_Projects/External_Projects/dotnet/GameStore/bin/Debug/net9.0/MiniValidation.dll
+/Volumes/Janindu_Projects/External_Projects/dotnet/GameStore/obj/Debug/net9.0/GameStore.csproj.AssemblyReference.cache
+/Volumes/Janindu_Projects/External_Projects/dotnet/GameStore/obj/Debug/net9.0/GameStore.MvcApplicationPartsAssemblyInfo.cs
+/Volumes/Janindu_Projects/External_Projects/dotnet/GameStore/obj/Debug/net9.0/GameStore.csproj.Up2Date

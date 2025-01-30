@@ -1,1 +1,19 @@
 GET http://localhost:5221/
+
+###
+GET http://localhost:5221/game
+
+###
+GET http://localhost:5221/game/1
+
+###
+POST http://localhost:5221/games
+Content-Type: application/json
+
+{
+    "name": "game1",
+    "genera": "game1 genera",
+    "publisher": "game1 publisher",
+    "price": 100.00,
+    "releaseDate": "2021-10-10"
+}

@@ -26,3 +26,4 @@
 /Volumes/Janindu_Projects/External_Projects/dotnet/GameStore/obj/Debug/net9.0/GameStore.pdb
 /Volumes/Janindu_Projects/External_Projects/dotnet/GameStore/obj/Debug/net9.0/GameStore.genruntimeconfig.cache
 /Volumes/Janindu_Projects/External_Projects/dotnet/GameStore/obj/Debug/net9.0/ref/GameStore.dll
+/Volumes/Janindu_Projects/External_Projects/dotnet/GameStore/obj/Debug/net9.0/GameStore.sourcelink.json

@@ -60,6 +60,48 @@ app.MapPost(
     }
 );
 
+app.MapPut(
+    "game/{id}",
+    (int id, UpdateDto updatedValues) =>
+    {
+        int gameIndex = games.FindIndex(game => game.Id == id);
+        GameDto game = games[gameIndex];
+        if (gameIndex < 0)
+        {
+            return Results.NotFound();
+        }
+
+        GameDto updatedGame = game with
+        {
+            Name = updatedValues.Name ?? game.Name,
+            Genera = updatedValues.Genera ?? game.Genera,
+            Publisher = updatedValues.Publisher ?? game.Publisher,
+            Price = updatedValues.Price ?? game.Price,
+            ReleaseDate = updatedValues.ReleaseDate ?? game.ReleaseDate,
+        };
+
+        games[gameIndex] = updatedGame;
+
+        return Results.CreatedAtRoute("getGameById", new { id = id }, updatedGame);
+    }
+);
+
+app.MapDelete(
+    "game/{id}",
+    (int id) =>
+    {
+        int gameIndex = games.FindIndex(game => game.Id == id);
+        if (gameIndex < 0)
+        {
+            return Results.NotFound();
+        }
+
+        games.RemoveAt(gameIndex);
+
+        return Results.NoContent();
+    }
+);
+
 app.MapGet("/", () => "Hello World!");
 
 app.Run();
